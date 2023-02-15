@@ -1,0 +1,20 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div ul li a {
+    color: white;
+    padding: 0px 15px;
+}
+
+.btn-outline-success {
+    border: none;
+}
+
+.btn-outline-success:hover {
+    background-color: #19227C;
+}
+
+.morado {
+    color: #19227C;
+}
