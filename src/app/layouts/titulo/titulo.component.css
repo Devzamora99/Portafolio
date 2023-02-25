@@ -1,0 +1,31 @@
+h1{
+    float: left;
+    position: relative;
+    margin: 15px 0px 0px 15px;
+}
+
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #212121;
+    border-left: 1px solid #fff;
+
+    animation: maquina 3s steps(52);
+    /*Se puede dejar la animacion como infinita con infinite y se puede hacer que al finalizar se alterne desde donde
+    se inicia la animacion con alternate*/
+}
+
+.subtitulo {
+    color: #524AAC;
+    margin: 0px 15px;
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
